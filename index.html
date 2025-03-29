@@ -197,29 +197,92 @@
         </div>
 
         <!-- Contact Section -->
-        <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-            <h2 class="w3-text-light-grey">Contact Me</h2>
-            <hr style="width:200px" class="w3-opacity">
+        <div class="container">
+        <h1>Contact Us</h1>
+        <form action="https://your-rapidforms-url.com" method="POST"> <!-- Replace with your RapidForms URL -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
 
-            <div class="w3-section">
-                <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Mumbai, INDIA</p>
-                <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
-                <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com
-                </p>
-            </div><br>
-            <p>Let's get in touch. Send me a message:</p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
-            <form action="/action_page.php" target="_blank">
-                <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-                <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-                <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-                <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
-                <p>
-                    <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
-                    </button>
-                </p>
-            </form>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}" placeholder="123-456-7890">
+
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="USA">United States</option>
+                <option value="Canada">Canada</option>
+                <option value="UK">United Kingdom</option>
+                <option value="Australia">Australia</option>
+                <option value="India">India</option>
+                <!-- Add more countries as needed -->
+            </select>
+
+            <label for="state">State:</label>
+            <select id="state" name="state" required>
+                <option value="">Select your state</option>
+                <option value="AL">Alabama</option>
+                <option value="AK">Alaska</option>
+                <option value="AZ">Arizona</option>
+                <option value="AR">Arkansas</option>
+                <option value="CA">California</option>
+                <option value="CO">Colorado</option>
+                <option value="CT">Connecticut</option>
+                <option value="DE">Delaware</option>
+                <option value="DC">District of Columbia</option>
+                <option value="FL">Florida</option>
+                <option value="GA">Georgia</option>
+                <option value="HI">Hawaii</option>
+                <option value="ID">Idaho</option>
+                <option value="IL">Illinois</option>
+                <option value="IN">Indiana</option>
+                <option value="IA">Iowa</option>
+                <option value="KS">Kansas</option>
+                <option value="KY">Kentucky</option>
+                <option value="LA">Louisiana</option>
+                <option value="ME">Maine</option>
+                <option value="MD">Maryland</option>
+                <option value="MA">Massachusetts</option>
+                <option value="MI">Michigan</option>
+                <option value="MN">Minnesota</option>
+                <option value="MS">Mississippi</option>
+                <option value="MO">Missouri</option>
+                <option value="MT">Montana</option>
+                <option value="NE">Nebraska</option>
+                <option value="NV">Nevada</option>
+                <option value="NH">New Hampshire</option>
+                <option value="NJ">New Jersey</option>
+                <option value="NM">New Mexico</option>
+                <option value="NY">New York</option>
+                <option value="NC">North Carolina</option>
+                <option value="ND">North Dakota</option>
+                <option value="OH">Ohio</option>
+                <option value="OK">Oklahoma</option>
+                <option value="OR">Oregon</option>
+                <option value="PA">Pennsylvania</option>
+                <option value="RI">Rhode Island</option>
+                <option value="SC">South Carolina</option>
+                <option value="SD">South Dakota</option>
+                <option value="TN">Tennessee</option>
+                <option value="TX">Texas</option>
+                <option value="UT">Utah</option>
+                <option value="VT">Vermont</option>
+                <option value="VA">Virginia</option>
+                <option value="WA">Washington</option>
+                <option value="WV">West Virginia</option>
+                <option value="WI">Wisconsin</option>
+                <option value="WY">Wyoming</option>
+            </select>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <input type="submit" value="Send">
+        </form>
+    </div>
+    
             <!-- End Contact Section -->
         </div>
 
@@ -231,7 +294,7 @@
             <i class="fa fa-pinterest-p w3-hover-opacity"></i>
             <i class="fa fa-twitter w3-hover-opacity"></i>
             <i class="fa fa-linkedin w3-hover-opacity"></i>
-            <p class="w3-small">This website was created by Kajal with the help of W3Schools.</p>
+            <p class="w3-small">This website was created by Lenlie with the help of W3Schools.</p>
 
             <a class="w3-button w3-round-xxlarge w3-small w3-light-grey" href="#me" target="_blank">Start now</a>
             <!-- End footer -->
