@@ -1,127 +1,251 @@
+
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
- 
 
+<head>
+    <title>PORTFOLIO</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Montserrat", sans-serif
+        }
+
+        .w3-row-padding img {
+            margin-bottom: 12px
+        }
+
+        
+        .w3-sidebar {
+            width: 120px;
+            background: #222;
+        }
+
+
+        #main {
+            margin-left: 120px
+        }
+
+        
+        @media only screen and (max-width: 600px) {
+            #main {
+                margin-left: 0
+            }
+        }
+        html{
+            scroll-behavior:smooth;
+        }
+    </style>
 </head>
-<body>
-<header id="header"> <h1> Lenlie Tiff</h1>
-	<nav id="nav-bar">
-	<div class="top-header" id="Home">
-	<img id="header-img" src="IMG_20250225_212712_930.jpg" alt="My Dream is gray logo" width="80" height="72"> </div>
-	<ul>
-		<li><a class="nav-link" href="#Home">Home</a></li>
-		<li><a class="nav-link" href="#Shop">Contact</a></li>
-		<li><a class="nav-link" href="#Community">Community</a></li>
-	</ul>
-	</nav>
-</header>
-	
-<p style="font-size: 20px; text-align: center;">Want to connect with me? This is a web page dedicated for that:</p>
-<div class="video-container">
-	<iframe id="video" src="https://www.youtube.com/embed/Ac-BFKAZpoM" width="560" height="315" frameborder="1" allow="autoplay; fullscreen" allowfullscreen></iframe>
-	 <iframe id="video" src="https://player.vimeo.com/video/214036484" width="560" height="315" frameborder="1" allow="autoplay; fullscreen" allowfullscreen></iframe>
-	 <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/fr4phSQGLuw" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-<br> <br>
-<p id="Shop">Shop Catalog:</p> 
-<div class="shop-container">
-<div>
-	<img src="https://prnt00.deviantart.net/a157/b/2013/316/2/21cadb30438ad8bd6a1e4c1beac5aace-pkk87j.jpg" alt="Autumn dragon (autumnus) by Deevad 2013" width="300" height="400"> <p> Gallery framed Fine Art Prints ship with an additional 2" bright white border</p>
-	<button type="button" id="button" class="button">$50.05</button>
-</div>
-<div>
-	<img src="https://prnt00.deviantart.net/acea/b/2014/123/d/dfc62cb32fb028f3b8ca1067ccb2db64-pld62e.jpg" alt="Woods by Takmaj 2014" width="300" height="400"> <p>Breaking through depression. This is telling a misfortune life in a beautiful relaxing way</p>
-	<button type="button" id="button" class="button">$50.05</button>
-</div> 
-<div>
-	<img src="https://prnt00.deviantart.net/3cce/p/2008/271/0/025b34f9cc57288e9a6a95f90a93edc4.jpg" alt="Meditation by GorosArt 2008" width="300" height="400"> <p>Play your inner soul with the nature to find peacefulness inside your heart</p>
-	 <button type="button" id="button" class="button">$50.05</button>
-</div>
-<div>
-	<img src="https://prnt00.deviantart.net/78ba/b/2013/040/7/725d136ed8ed23f6aedf3a2aff9fda4a-pj2wyf.jpg" alt="As mysterious as a cat by Pencillcat 2013" width="300" height="400"><p>From Edgar Allan Poe (available photo print only)</p>
-	<button type="button" id="button" class="button">$28.79</button>
-</div>
-<div>
-	<img src="https://prnt00.deviantart.net/7563/b/2014/122/6/6ef2f835fa0c569e5b3b262a212fa81a-plcyc6.jpg" alt="Loving birds by TaoBishu 2014" width="300" height="400"> <p>Every creature has love to offer, but only few understands the real meaning of LOVE</p>
-	<button type="button" id="button" class="button">$58.57</button>
-</div>
-<div>
-	<img src="https://prnt00.deviantart.net/ed7e/b/2015/060/0/0cf84f86c0f3d7924ba9346e747b1925-pmfrum.jpg" alt="Searching by jon-bibire 2015" width="300" height="400"><p>A journey of innocent human trying to find the meaning of life</p>
-	<button type="button" id="button" class="button">$50.05</button>
-</div>
 
-</div>
-<p style="text-align:center;">More arts for sale <a href="https://shop.deviantart.com"> Deviantart</a></p>
-<br/>
-<br/>
-<br/>
-<br/>
-<p class="join-form">If you learn today, you will be a  better artist tomorrow. Learn more about our community to help you improve your art. </p>
-  
-<div class="form">
-<form id="form" style="display: inline" action="https://www.freecodecamp.com/email-submit">
-	<input id="email" name="email" type="email" placeholder="Enter your email here..."/>
-	 <input type="submit" id="submit" class="button"/>
-</form>
-  </div>
+<body class="w3-black">
 
-<p id="Community"> Community:</p>
-<br/>
-<br/>
-<br/>
-<table class="points">
-	<tr>
-	  <th>Topic</th>
-	  <th>Original Website</th>
-	  <th>Posted Date</th>
-	</tr>
-	<tr>
-	  <td><a href="https://forum.deviantart.com/art/digital/2591564/">Coloring and Shading Digital Art Tips?</a></td>
-	  <td>DeviantArt</td>
-	  <td>June 7, 2020</td>
-	</tr>
-	<tr>
-	  <td><a href="https://forum.deviantart.com/art/digital/2591478/">Struggling with digital inking</a></td>
-	  <td>DeviantArt</td>
-	  <td>June 7, 2020</td>
-	</tr>
-	<tr>
-	  <td><a href="https://forum.deviantart.com/community/projects/2592136/">Art sketch request for free</a></td>
-	  <td>DeviantArt</td>
-	  <td>June 10, 2020</td>
-	</tr>
-	<tr>
-	  <td><a href="https://forum.deviantart.com/technology/software/2590741/">Trouble after scanning colored pencil portrait</a></td>
-	  <td>DeviantArt</td>
-	  <td>June 3, 2020</td>
-	</tr>
-	<tr>
-	  <td><a href="https://forum.deviantart.com/art/literature/2587133/">Join a Writer's and Poet's Discord Community</a></td>
-	  <td>DeviantArt</td>
-	  <td>Feb 17, 2025</td>
-	</tr>
-	<tr>
-	  <td><a href="https://forum.deviantart.com/art/literature/2590881/">Reminder, there's a trick to access sta.sh writer even in eclipse</a></td>
-	  <td>LenlieArt</td>
-	  <td>June 4, 2020</td>
-	</tr>
-	<tr>
-	  <td><a href="https://forum.deviantart.com/community/life/2590513/">how to get over a block?</a></td>
-	  <td>LenlieArt</td>
-	  <td>June 2, 2020</td>
-	</tr>
-	<tr>
-	  <td><a href="https://forum.deviantart.com/community/life/2590806/">How to keep faith in a dream project, when your mind says you'll never be successful like others?</a></td>
-	  <td>LenlieArt</td>
-	  <td>June 3, 2020</td>
-	</tr>
-	<tr>
-	  <td><a href="https://forum.deviantart.com/community/complaints/2592068/">Why did DeviantArt decided to ditch the old site’s look?</a></td>
-	  <td>LenlieArt</td>
-	  <td>June 10, 2020</td>
-	</tr>
-  </table>
-  </body>
+
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+
+        <img src="https://i.imgur.com/kNkoLvs.jpeg" alt="girl" style="width:100%;">
+
+        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+            <i class="fa fa-home w3-xxlarge"></i>
+            <p>HOME</p>
+        </a>
+        <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-user w3-xxlarge"></i>
+            <p>ABOUT</p>
+        </a>
+        <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-eye w3-xxlarge"></i>
+            <p>PHOTOS</p>
+        </a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-envelope w3-xxlarge"></i>
+            <p>CONTACT</p>
+        </a>
+    </nav>
+
+
+    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+        <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+            <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+            <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+            <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+        </div>
+    </div>
+
+
+    <div class="w3-padding-large" id="main">
+
+        <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+            <h1 class="w3-jumbo"><span class="w3-hide-small">I'm </span>KAJAL</h1>
+            <p>Photographer and Web Designer.</p>
+            <img src="https://i.imgur.com/YlDvY2l.png" style="width:100%;">
+        </header>
+
+
+        <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+            <h2 class="w3-text-light-grey">About Me</h2>
+            <hr style="width:200px" class="w3-opacity">
+            <p>I'm Kajal, a 12th-grade student with a passion for coding 💻 and technology. As a beginner, I'm excited
+                to learn more about programming. I also love animals 🐾 and enjoy photography 📸, capturing nature's
+                beauty and special moments. Always eager to grow and explore new interests!
+            </p>
+            <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+            <p class="w3-wide">Photography</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+            </div>
+            <p class="w3-wide">Web Design</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+            </div>
+            <p class="w3-wide">Photoshop</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+            </div><br>
+
+            <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+                <div class="w3-quarter w3-section">
+                    <span class="w3-xlarge">3+</span><br>
+                    Partners
+                </div>
+                <div class="w3-quarter w3-section">
+                    <span class="w3-xlarge">15+</span><br>
+                    Projects Done
+                </div>
+                <div class="w3-quarter w3-section">
+                    <span class="w3-xlarge">120+</span><br>
+                    Happy Clients
+                </div>
+                <div class="w3-quarter w3-section">
+                    <span class="w3-xlarge">150+</span><br>
+                    Meetings
+                </div>
+            </div>
+
+            <button class="w3-button w3-light-grey w3-padding-large w3-section">
+                <i class="fa fa-download"></i> Download Resume
+            </button>
+
+
+            <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
+            <div class="w3-row-padding" style="margin:0 -16px">
+                <div class="w3-half w3-margin-bottom">
+                    <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+                        <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+                        <li class="w3-padding-16">Web Design</li>
+                        <li class="w3-padding-16">Photography</li>
+                        <li class="w3-padding-16">5GB Storage</li>
+                        <li class="w3-padding-16">Mail Support</li>
+                        <li class="w3-padding-16">
+                            <h2>$ 10</h2>
+                            <span class="w3-opacity">per month</span>
+                        </li>
+                        <li class="w3-light-grey w3-padding-24">
+                            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="w3-half">
+                    <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+                        <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
+                        <li class="w3-padding-16">Web Design</li>
+                        <li class="w3-padding-16">Photography</li>
+                        <li class="w3-padding-16">50GB Storage</li>
+                        <li class="w3-padding-16">Endless Support</li>
+                        <li class="w3-padding-16">
+                            <h2>$ 25</h2>
+                            <span class="w3-opacity">per month</span>
+                        </li>
+                        <li class="w3-light-grey w3-padding-24">
+                            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <!-- Portfolio Section -->
+        <div class="w3-padding-64 w3-content" id="photos">
+            <h2 class="w3-text-light-grey">My Photos</h2>
+            <hr style="width:200px" class="w3-opacity">
+
+            <!-- Grid for photos -->
+            <div class="w3-row-padding" style="margin:0 -16px">
+                <div class="w3-half">
+                    <img src="https://i.imgur.com/qT7PjM1.jpeg" style="width:100%">
+                    <img src="https://i.imgur.com/rIFC4jy.jpeg" style="width:100%">
+                    <img src="https://i.imgur.com/znU46aQ.jpeg" style="width:100%">
+                </div>
+
+                <div class="w3-half">
+                    <img src="https://i.imgur.com/U8g7f8S.jpeg" style="width:100%">
+                    <img src="https://i.imgur.com/bElAARn.jpeg" style="width:100%">
+                    <img src="https://i.imgur.com/UQXJvrU.jpeg" style="width:100%">
+                    <img src="https://i.imgur.com/dftNToZ.jpeg" style="width:100%">
+                </div>
+                <!-- End photo grid -->
+            </div>
+            <!-- End Portfolio Section -->
+        </div>
+
+        <!-- Contact Section -->
+        <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+            <h2 class="w3-text-light-grey">Contact Me</h2>
+            <hr style="width:200px" class="w3-opacity">
+
+            <div class="w3-section">
+                <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Mumbai, INDIA</p>
+                <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+                <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com
+                </p>
+            </div><br>
+            <p>Let's get in touch. Send me a message:</p>
+
+            <form action="/action_page.php" target="_blank">
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+                <p>
+                    <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                    </button>
+                </p>
+            </form>
+            <!-- End Contact Section -->
+        </div>
+
+        <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+        <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+            <p class="w3-small">This website was created by Lenlie with the help of W3Schools.</p>
+
+            <a class="w3-button w3-round-xxlarge w3-small w3-light-grey" href="#me" target="_blank">Start now</a>
+            <!-- End footer -->
+        </footer>
+
+        <!-- END PAGE CONTENT -->
+    </div>
+
+</body>
+
+</html>
